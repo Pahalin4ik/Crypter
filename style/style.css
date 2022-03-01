@@ -30,6 +30,8 @@ label{
     display: block;
     margin: 30px auto;
     height: 80px;
+    font-size: 25pt;
+    background-color: #92f093;
 }
 .result{
     width: 100%;
