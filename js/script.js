@@ -19,8 +19,8 @@ $("#mask").on("keydown",function(e){
 });
 $("#mask").on("keyup",function(e){    
     var s = SepNumb($("#mask").val());
-    if(parseInt(s)>400){
-        $("#mask").val("400");
+    if(parseInt(s)>147){
+        $("#mask").val("147");
     }
     else{
         $("#mask").val(s);
