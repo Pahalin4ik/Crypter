@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <div class="text">
+            <label for="input">Text</label>
+            <textarea class="input" name="input"></textarea>
+        </div>
+        <div class="mask">
+            <label for="mask">Mask </label>
+            <input type="text" min="0" max="400" name="mask" class="input" id="mask"></input>
+        </div>
+       <div class="result">
+           <button class="shifr">Crypt</button>
+           <textarea name="result" id="result" disabled="true"></textarea>
+       </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/crypt.js"></script>
+</body>
+</html>
