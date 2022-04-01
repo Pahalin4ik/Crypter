@@ -58,6 +58,7 @@ label{
     position: relative;
     bottom: 10px;
     font-size: 16pt;
+    color: white;
 }
 body{
     background-color: rgb(31, 31, 31);
