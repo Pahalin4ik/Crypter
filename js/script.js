@@ -8,7 +8,7 @@ function SepNumb(text){
     return ret;
 }
 
-$("#mask").on("keydown",function(e){    
+$("#mask").on("keydown",function(){    
     var s = SepNumb($("#mask").val());
     if(parseInt(s)>147){
         $("#mask").val("147");
@@ -17,7 +17,7 @@ $("#mask").on("keydown",function(e){
         $("#mask").val(s);
     }
 });
-$("#mask").on("keyup",function(e){    
+$("#mask").on("keyup",function(){    
     var s = SepNumb($("#mask").val());
     if(parseInt(s)>147){
         $("#mask").val("147");
